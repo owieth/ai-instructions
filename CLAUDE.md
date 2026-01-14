@@ -1,5 +1,10 @@
 # Project Guidelines
 
+## Plan Mode
+
+- Make the plan extremely concise. Sacrifice grammar for the sake of concision.
+- At the end of each plan, give me a list of unresolved questions to answer, if any.
+
 ## Package Management
 
 Before running any package manager commands, check the `packageManager` field in `package.json`.
@@ -39,3 +44,4 @@ Use: allowlist/blocklist, primary/replica, placeholder/example, main branch, con
 ## Style
 
 Prefer self-documenting code over comments.
+
