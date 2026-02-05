@@ -45,6 +45,18 @@ Use: allowlist/blocklist, primary/replica, placeholder/example, main branch, con
 
 Prefer self-documenting code over comments.
 
+## Refactoring
+
+When renaming or refactoring across the codebase, present a brief plan with estimated scope (number of files, components affected) before making any changes. Wait for explicit approval before proceeding.
+
+## TypeScript Guidelines
+
+When modifying React components or API routes, preserve existing prop interfaces and function signatures unless explicitly asked to change them. If changes are necessary, flag them before implementing.
+
+## GraphQL
+
+For GraphQL queries/mutations, always check for skip conditions and ensure variables are properly handled when queries might not execute. Test with edge cases like missing or optional data.
+
 ## UI Development
 
 When working on UI components and interfaces, apply these opinionated constraints for building better interfaces.
